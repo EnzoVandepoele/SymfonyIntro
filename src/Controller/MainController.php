@@ -10,6 +10,6 @@ class MainController
     #[Route('/')]
     public function HomePage(): Response
     {
-        return new Response("<strong>Hello World !</strong>");
+        return new Response('<strong>Hello World !</strong>');
     }
 }
