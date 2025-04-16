@@ -4,8 +4,8 @@
 <h1><strong>Hello World !</strong></h1>
 
 <div>
-    <p>Nous possédons une flotte de {{numberOfStarships}} vaisseaux spatiaux !</p>
-    {% if numberOfStarships > 400 %}
+    <p>Nous possédons une flotte de {{ships|length}} vaisseaux spatiaux !</p>
+    {% if ships|length > 400 %}
         <p>
             C'est une flotte considérable !
         </p>
